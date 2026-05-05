@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
+st.title("💸 Personal Expense Tracker")
+st.write("App loading...")
+
 # ---------- PAGE CONFIG ----------
 st.set_page_config(page_title="Expense Tracker", layout="wide")
 
